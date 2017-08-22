@@ -103,7 +103,8 @@ void printInOrder(node* aNode, int aWordCount)
 
 void print(int aNum)
 {
-	if (printProg++ >= 4) 
+	cout << setw(5);
+	if (printProg++ >= 9) 
 	{
 		cout << endl; 
 		printProg = 0;
